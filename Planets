@@ -1,0 +1,37 @@
+  planet=input("Write the name of a planet: ")
+  print("Planeti" + planet)
+  
+  if planet==Mercury:
+    print("Mercury is the smallest and nearest plaent to the Sun"
+    print("The distance from the Sun and Mercury is 58 million km, from this distance it takes 3.2 minutes to travel from the Sun to Mercury")
+    
+  elif planet==Venus:
+    print("Venus is the second planet from the Sun.")
+    print("It is named after the Roman goddess of love and beauty")
+    print("It is 108 million km away from the sun")
+
+  elif planet==Earth:
+    print("Earth is the third planet from the Sun snd the only astronomical object known to harbor life")
+    print("The idstance between the Earth and the Sun is 147 million km")
+  
+  elif planet==Mars:
+    print("Mars is teh fourth planet from theSun and the second smallest planet in the Solar System, being larger than only Mercury")
+    print("Mars carries the name of the Roman god of war and is often referref to as the Red Planet")
+    print("Distance from the sun is 228 million km")
+    
+  elif planet==Jupiter:
+    print("Jupiter is the fifth planet from the Sun and the largest in the Solar System")
+    print("It is 777 million km away from the sun")
+    
+  elif planet==Saturn:
+    print("Saturn is the sixth palent from the Sun and the second largest in our Solar System")
+    print("Distance from the sun is 1.4 billon km")
+    
+  elif planet==Uranus:
+    print("Uranus is teh seventh planet from the Sun")
+    print("Its name is a reference to the Geek god of the sky")
+    print("Dsitance from the Sun is 2.9 billion km")
+    
+  else planet==Neptune:
+    print("The planet you are searching for it is not part of our solar system")
+    pritn("Please type another planet")
